@@ -1,0 +1,17 @@
+### Time Series dataset guidelines
+The dataset is available here:
+
+#### 1.
+On the following official link: https://zenodo.org/record/1188976
+The only files needed are:
+- Audio_Song_Actors_01-24.zip
+- Audio_Speech_Actors_01-24.zip
+
+#### 2.
+Or here:
+https://drive.google.com/drive/folders/1hnsd2MIx-ml9gNDivimiUT9kDldG1c5p?usp=share_link
+In the drive link you can find both a folder RavdessAudioOnly containing the raw audio .wav files, and preprocessed npy arrays containing all the data (each row of the array is a different audio file).
+- X... contains the audios (you can import them via np.load(...))
+- Y... contains the categorical features (it is a normal csv)
+
+There will be notebooks on how to import the dataset.
